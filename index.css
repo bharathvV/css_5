@@ -1,0 +1,143 @@
+body {
+  background-color: green;
+}
+
+h2 {
+  text-align: center;
+}
+.div1 {
+  align-content: center;
+  display: flex;
+  margin-left: 550px;
+}
+.div2 {
+  align-content: center;
+  display: flex;
+  margin-left: 550px;
+  margin-top: 50px;
+}
+.row1 {
+  width: 80px;
+  height: 80px;
+  border: 2px solid black;
+  margin: 10px;
+  background-color: lightseagreen;
+  animation-name: box1-animation;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+@keyframes box1-animation {
+  40% {
+    transform: skew(30deg, 30deg);
+  }
+  41% {
+    transform: skew(-30deg, -30deg);
+  }
+}
+
+.row2 {
+  width: 80px;
+  height: 80px;
+  border: 2px solid black;
+  margin: 10px;
+  background-color: yellow;
+  animation-name: box2-animation;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes box2-animation {
+  0% {
+    transform: skewY(0deg);
+  }
+  35% {
+    transform: skewY(20deg);
+  }
+  75% {
+    transform: skewY(-20deg);
+  }
+  100% {
+    tranform: skewY(0deg);
+  }
+}
+
+.div3 {
+  align-content: center;
+  display: flex;
+  margin-left: 550px;
+  margin-top: 50px;
+}
+.row3 {
+  width: 80px;
+  height: 80px;
+  border: 2px solid black;
+  margin: 10px;
+  background-color: greenyellow;
+  animation-name: box3-animation;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+@keyframes box3-animation {
+  100% {
+    transform: rotate(180deg);
+  }
+}
+
+.div4 {
+  align-content: center;
+  display: flex;
+  margin-left: 550px;
+  margin-top: 50px;
+}
+.row4-1 {
+  width: 80px;
+  height: 40px;
+  border: 2px solid black;
+  margin: 10px;
+  background-color: red;
+  animation-name: box4_1-animation;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes box4_1-animation {
+  50% {
+    transform: scaleY(50%);
+  }
+}
+.row4-2 {
+  width: 40px;
+  height: 80px;
+  border: 2px solid black;
+  margin: 20px;
+  background-color: brown;
+  animation-name: box4_2-animation;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+@keyframes box4_2-animation {
+  50% {
+    transform: scaleX(50%);
+  }
+}
+.row4-3 {
+  width: 80px;
+  height: 80px;
+  border: 2px solid black;
+  margin: 10px;
+  background-color: lightsalmon;
+  animation-name: box4_3-animation;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+@keyframes box4_3-animation {
+  100% {
+    transform: rotate(100deg);
+  }
+}
